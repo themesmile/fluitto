@@ -20,10 +20,7 @@
       }
     </style>
     <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
-	
-	
-	
-<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.10/themes/base/jquery-ui.css" />
+	<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.10/themes/base/jquery-ui.css" />
 
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -66,13 +63,70 @@
 
   
       <div class="row-fluid">
-        <div class="span3">
-	
-					<h3>Content Width</h3>
-					<div id="width_slider" style="width:100%;">&nbsp;</div>
+        <div class="span3 nest-bg">
+		
+		<div id="width_slider" style="width:100%;"></div>
+	<ul class="topnav">
+		<li><a href="#">Home</a></li>
+		<li><a href="#">JavaScript</a>
+			<ul>
+				 <li><a href="#">Cookies</a></li>
+				 <li><a href="#">Events</a></li>
+				 <li><a href="#">Forms</a></li>
+				 <li><a href="#">Games</a></li>
+				 <li><a href="#">Images</a></li>
+				 <li><a href="#">Navigations</a>
+					<ul>
+						<li><a href="#">CSS</a></li>
+						<li><a href="#">JavaScript</a></li>
+						<li><a href="#">JQuery</a></li>
+					</ul>
+				</li>
+				 <li><a href="#">Tabs</a></li>
+			</ul>
+		</li>
+		<li><a href="#">Tutorials</a>
+			<ul>
+				 <li class="active"><a href="#">HTML</a></li>
+				 <li><a href="#">CSS</a></li>
+				 <li><a href="#">JavaScript</a></li>
+				 <li><a href="#">Java</a>
+					<ul>
+						<li><a href="#">JSP</a></li>
+						<li><a href="#">JSF</a></li>
+						<li><a href="#">JPA</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</li>
+				 <li><a href="#">Tabs</a></li>
+			</ul>
+		</li>
+		<li><a href="#" target="_blank">Contact</a></li>
+		<li><a href="#">Upload script</a></li>
+	</ul>
 			
         </div><!--/span-->
-        <div class="span9">
+        <div class="span9 nest-bg">
+		<div class="row-fluid">
+				<div class="row-fluid">
+							<div class="span4 dahboard-gauge">
+							<div id="g1"></div>
+							<h5 class="gauge-tittle">average</h5>
+							<h3 class="gauge-subtittle">200<span>mb</span></h3>
+							</div>
+							<div class="span4 dahboard-gauge">
+							<div id="g3"></div>
+							<h5 class="gauge-tittle">Usage</h5>
+							<h3 class="gauge-subtittle">800<span>GB</span></h3>
+							</div>
+								<div class="span4 dahboard-gauge">
+							<div id="g4"></div>
+								<h5 class="gauge-tittle">average</h5>
+							<h3 class="gauge-subtittle">10<span>/ DAY</span></h3>
+							</div>
+				</div>
+		
+		</div>
        <div class="row-fluid">
 		<div class="span3">Level 2</div>
 		<div class="span6">Level 2</div>
@@ -90,6 +144,11 @@
     <script src="assets/js/jquery.js"></script>
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.10/jquery-ui.min.js"></script>
 	<script type="text/javascript" src="assets/js/sherpa_ui.js"></script>
+	
+
+	
+	<script src="assets/js/custom/justgauge.js"></script> 
+	<script src="assets/js/custom/accordion.js"></script>
 
 
   </body>

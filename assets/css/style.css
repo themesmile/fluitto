@@ -1,39 +1,135 @@
+/* =================
+    SIDEBAR 
+ ==================*/
 
-.row-fluid .nest-content {
-    width: 74.359%;
+.topnav {
+	padding: 40px 28px 25px 0;
 }
-.row-fluid [class*="span"] {
-    -moz-box-sizing: border-box;
+
+ul.topnav {
+	padding: 0;
+	margin: 0;
+	font-size: 1em;
+	line-height: 0.5em;
+	list-style: none;
+}
+
+ul.topnav li {}
+
+ul.topnav li a {
+	line-height: 10px;
+	font-size: 11px;
+	padding: 10px 5px;
+	color: #000;
+	display: block;
+	text-decoration: none;
+	font-weight: bolder;
+}
+
+ul.topnav li a:hover {
+	background-color:#675C7C;
+	color:white;
+}
+
+ul.topnav ul {
+	margin: 0;
+	padding: 0;
+	display: none;
+}
+
+ul.topnav ul li {
+	margin: 0;
+	padding: 0;
+	clear: both;
+}
+
+ul.topnav ul li a {
+	padding-left: 20px;
+	font-size: 10px;
+	font-weight: normal;
+	outline:0;
+}
+
+ul.topnav ul li a:hover {
+	background-color:#D3C99C;
+	color:#675C7C;
+}
+
+ul.topnav ul ul li a {
+	color:silver;
+	padding-left: 40px;
+}
+
+ul.topnav ul ul li a:hover {
+	background-color:#D3CEB8;
+	color:#675C7C;
+}
+
+ul.topnav span{
+	float:right;
+}
+
+
+
+
+
+
+
+.nest-bg {
+	background:#fff;
+	padding:10px;
+	border:1px solid #ccc;
+}
+.dahboard-gauge{
+	background:#fff;
+	padding:5px;
+	border-radius:3px;
+	margin:25px 0 0 0;
+	box-shadow:0 1px 0 #FFFFFF;
+	border:1px solid #ccc;
+	position:relative;
+}
+.dahboard-gauge:after, .dahboard-gauge:before {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #FFFFFF;
+    border-color: -moz-use-text-color #CCCCCC #CCCCCC;
+    border-image: none;
+    border-style: none solid solid;
+    border-width: 0 1px 1px;
+    bottom: -3px;
+    content: "";
     display: block;
-    float: left;
-    margin-left: 2.5641%;
-    min-height: 30px;
-    width: 100%;
+    height: 1px;
+    left: 3px;
+    position: absolute;
+    right: 3px;
+	border-radius: 0 0 3px 3px;
 }
-.row-fluid .nest-content {
-    width: 74.4681%;
+.dahboard-gauge:before {
+    bottom: -5px;
+    left: 6px;
+    right: 6px;
 }
-.row-fluid [class*="span"] {
-    -moz-box-sizing: border-box;
-    display: block;
-    float: left;
-    margin-left: 2.12766%;
-    min-height: 30px;
-    width: 100%;
+
+.gauge-tittle{
+	margin-top:25px;
+	color:#555;
+	margin-left: 50px;
+	text-transform:uppercase;
 }
-.nest-content {
-    width: 870px;
+.gauge-subtittle{
+	margin-top:-5px;
+	margin-left: 10px;
+	color:#000;
+	font-size:24px;
 }
-[class*="span"] {
-    float: left;
-    margin-left: 30px;
-    min-height: 1px;
+.gauge-subtittle span{
+	color:#ccc;
+	font-size:12px;
+	background:none;
+	margin-top:-15px;
 }
-.nest-content {
-    width: 700px;
-}
-[class*="span"] {
-    float: left;
-    margin-left: 20px;
-    min-height: 1px;
-}
+	  
