@@ -1,6 +1,6 @@
 		$(document).ready(function() {
-			$(".topnav").accordion({
-				accordion:false,
+			$(".topnav").accordionze({
+				accordionze:false,
 				speed: 500,
 				closedSign: '[+]',
 				openedSign: '[-]'

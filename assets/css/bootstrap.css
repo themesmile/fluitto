@@ -565,6 +565,12 @@ a:hover {
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.6);
+    border: 1px solid #CCCCCC;
+    padding: 15px;
+	margin-top: 10px;
+	border-radius:5px;
+
 /*   padding-right: 20px;
   padding-left: 20px; */
   *zoom: 1;
@@ -4156,7 +4162,7 @@ input[type="submit"].btn.btn-mini {
   min-height: 40px;
   padding-right: 20px;
   padding-left: 20px;
-  background-color: #fafafa;
+/*   background-color: #fafafa;
   background-image: -moz-linear-gradient(top, #ffffff, #f2f2f2);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f2f2f2));
   background-image: -webkit-linear-gradient(top, #ffffff, #f2f2f2);
@@ -4171,7 +4177,7 @@ input[type="submit"].btn.btn-mini {
   *zoom: 1;
   -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
      -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
-          box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+          box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065); */
 }
 
 .navbar-inner:before,

@@ -18,18 +18,10 @@
       .sidebar-nav {
         padding: 9px 0;
       }
-	  	.scroll {
-			float: left; 
-			width: 21%; 
-			padding: 0% 2% 2%; 
-			margin-left: 4%; 
-			margin-top: 0; 
-			border: 2px solid red; 
-			background-color: #FFEEEE;
-			}
+
     </style>
     <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
-	<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.10/themes/base/jquery-ui.css" />
+	<link href="assets/css/ui/jquery-ui-1.9.1.custom.css" rel="stylesheet" />
 
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -46,28 +38,25 @@
   </head>
 
   <body>
+<div id="nav-top"></div>
 <div class="container-fluid">
-    <div class="navbar navbar-inverse">
-      <div class="navbar-inner">
-        <div class="container-fluid">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-          <a class="brand" href="#">Project name</a>
-          <div class="nav-collapse collapse">
-            <p class="navbar-text pull-right">
-              Logged in as <a href="#" class="navbar-link">Username</a>
-            </p>
-            <ul class="nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
+    <div class="navbar">
+	<img src="assets/img/logo.png" class="logo">
+ 
+          <div class="btn-right pull-right">
+            <div class="btn-group">
+                <button class="btn">Action</button>
+                <button data-toggle="dropdown" class="btn dropdown-toggle"><span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </div>
+			  
           </div><!--/.nav-collapse -->
-        </div>
-      </div>
     </div>
 
   
@@ -75,7 +64,7 @@
         <div class="span3 scroll">
 		
 		<div id="width_slider" style="width:100%;"></div>
-	<ul class="topnav2">
+	<ul class="topnav">
 		<li><a href="#">Home</a></li>
 		<li><a href="#">JavaScript</a>
 			<ul>
@@ -117,6 +106,12 @@
         </div><!--/span-->
         <div class="span9 nest-bg">
 		<div class="row-fluid">
+		<div class="span12">
+					<article class="page-header">
+					<h4>Moshi-moshi.., dear user</h4>
+					<p>Huraga is a Star Trek character played by William Dennis Hunt. Huraga was a male Klingon who lived in the 24th century. This great warrior who was known to be an expert storyteller and participated in the Klingon invasion of Cardassia in 2372. Name of the character was not mentioned in dialogues, but it is known from the script.</p>
+					</article>
+		</div>
 				<div class="row-fluid">
 							<div class="span4 dahboard-gauge">
 							<div id="g1"></div>
@@ -137,12 +132,27 @@
 		
 		</div>
        <div class="row-fluid">
-		<div class="span3">
+		<div class="span4 dahboard-gauge">
 		
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo dapibus mi, at scelerisque velit pellentesque vel. Curabitur sapien ligula, blandit nec ultricies sed, sollicitudin in elit. Nunc nec tortor semper justo dignissim scelerisque ut nec magna. Vestibulum a turpis velit, non adipiscing libero. Vestibulum adipiscing, erat eget molestie congue, libero lectus aliquam dui, ut interdum mi libero vitae nisi. Sed egestas erat quis est auctor et imperdiet eros adipiscing. Sed rhoncus, mi a adipiscing pharetra, dui massa mollis libero, vel malesuada ligula quam sed neque. Nullam mollis tristique lectus id fermentum. Vestibulum adipiscing, sapien et luctus fermentum, magna nisi congue nisl, eu vehicula ante mi ut ipsum. Nulla vel metus eu dui porttitor porta sit amet pellentesque turpis. Ut eu massa mi. Aenean tristique nisi ut erat laoreet congue. In mauris nulla, luctus sed vestibulum at, sodales eget tortor. Nam nisi mauris, imperdiet dapibus venenatis vitae, hendrerit eu ligula. Cras molestie eros id tortor egestas a vulputate lacus condimentum. Donec quis lacus non nunc sagittis iaculis. 
 		
 		</div>
-		<div class="span6">Level 2</div>
+		<div class="span8">	
+				<div class="nest">
+  							<div class="title"><img class="titleIcon" alt="" src="assets/img/icons/berlin/calendar.png"><h6>JustGage</h6></div>
+  							<div class="body-nest">
+			
+							    <div id="placeholder" style="width:99%;height:300px;"></div>
+
+								<p>You can update a chart periodically to get a real-time effect
+								by using a timer to insert the new data in the plot and redraw it.</p>
+
+								<p>Time between updates: <input id="updateInterval" type="text" value="" style="text-align: right; width:5em"> milliseconds</p>
+														
+  							</div>
+  				</div>	
+		
+		</div>
 		</div>
       </div><!--/row-->
 
@@ -155,8 +165,15 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="assets/js/jquery.js"></script>
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.10/jquery-ui.min.js"></script>
+	 <script src="assets/js/scriptbreaker-multiple-accordion-1.js"></script>
+	<script src="assets/js/custom/accordion.js"></script>
+	<script type="text/javascript" src="assets/js/jquery-ui-1.9.1.custom.min.js"></script>
 	<script type="text/javascript" src="assets/js/sherpa_ui.js"></script>
+	
+    <script src='assets/js/raphael.2.1.0.min.js'></script>
+	<script src='assets/js/justgage.1.0.1.min.js'></script>
+	<script src="assets/js/custom/justgauge.js"></script> 
+
 	<script type="text/javascript" src="assets/js/jquery.jscroll.js"></script>
 	<script type="text/javascript">
 		
@@ -167,8 +184,6 @@
 	</script>
 
 	
-	<script src="assets/js/custom/justgauge.js"></script> 
-	<script src="assets/js/custom/accordion.js"></script>
 
 
   </body>

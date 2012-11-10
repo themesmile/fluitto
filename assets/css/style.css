@@ -1,29 +1,74 @@
+body{
+	background:url("../img/white_texture.png") repeat;
+	background-attachment:fixed;
+	
+
+}
+#nav-top{
+	background: url("../img/nav-bg.png") repeat-x scroll 0 0 transparent;
+    height: 180px;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+	margin-bottom:250px;
+	top: 0;
+}
+img.logo{
+	    left: 25px;
+    position: relative;
+    top: 0;
+}
+.btn-right{
+	position:relative;
+	right:0;
+	background:red;
+
+}
 /* =================
     SIDEBAR 
  ==================*/
+.scroll {
+	float: left; 
+	width: 21%; 
+	padding: 0% 2% 2%; 
+	margin-left: 4%; 
+	margin-top: 25px; 
+/* 	border: 2px solid red; 
+	background-color: #FFEEEE; */
+}
+.side-bar{
 
+	top:50px;
+	background:#fff;
+	padding:10px;
+	border:1px solid #ccc;
+
+	
+}
 .topnav {
 	padding: 40px 28px 25px 0;
+
 }
 
 ul.topnav {
-	padding: 0;
-	margin: 0;
-	font-size: 1em;
-	line-height: 0.5em;
-	list-style: none;
+	padding: 0!important;
+	margin: 0!important;
+	font-size: 1em!important;
+	line-height: 0.5em!important;
+	list-style: none!important;
 }
 
 ul.topnav li {}
 
 ul.topnav li a {
-	line-height: 10px;
-	font-size: 11px;
-	padding: 10px 5px;
-	color: #000;
-	display: block;
-	text-decoration: none;
-	font-weight: bolder;
+	line-height: 10px!important;
+	font-size: 11px!important;
+	padding: 10px 5px!important;
+	color: #000!important;
+	display: block!important;
+	text-decoration: none!important;
+	font-weight: bolder!important;
+	list-style:none;
 }
 
 ul.topnav li a:hover {
@@ -44,10 +89,12 @@ ul.topnav ul li {
 }
 
 ul.topnav ul li a {
-	padding-left: 20px;
-	font-size: 10px;
-	font-weight: normal;
-	outline:0;
+	border-bottom: 1px solid #CCCCCC;
+    box-shadow: 0 2px 0 #FFFFFF;
+    font-size: 10px;
+    font-weight: normal;
+    outline: 0 none;
+    padding-left: 20px;
 }
 
 ul.topnav ul li a:hover {
@@ -70,15 +117,12 @@ ul.topnav span{
 }
 
 
-
-
-
-
-
 .nest-bg {
-	background:#fff;
-	padding:10px;
-	border:1px solid #ccc;
+	background: rgba( 255, 255, 255, 0.4);
+    border: 1px solid #CCCCCC;
+    margin-top: 25px;
+    padding: 10px;
+	border-radius:5px;
 }
 .dahboard-gauge{
 	background:#fff;
@@ -113,6 +157,75 @@ ul.topnav span{
     left: 6px;
     right: 6px;
 }
+   /* =============
+        CONTENT
+        ================*/
+.nest {
+           /*  background: url("../img/nest-bg.png") repeat scroll 0 0 #f8f8f8; */
+			background:none repeat scroll 0 0 #F7F7F7;
+            border: 1px solid #CDCDCD;
+            clear: both;
+            margin-top: 20px;
+            border-radius:5px;
+        }
+
+        .nest, .middleNav, .sItem, .statsDetailed {
+            box-shadow: 0 1px 0 #FFFFFF;
+        }
+        .nest .title {
+           background: url("../img/nest-head-bg.png") repeat-x scroll 0 0 #EFEFEF; 
+           border-bottom: 3px double #CDCDCD;
+           height: 36px;
+           box-shadow: 0 1px 0 #FFFFFF;
+		   border-radius: 5px 5px 0 0;
+       }
+       .nest .title h6 {
+        float: left;
+        font-size: 12px;
+        font-weight: normal;
+        padding: 9px 12px 8px;
+        text-shadow: 1px 1px 0 #FFFFFF;
+        color:#555555;
+    }
+	
+	
+	
+	.slidder-bar-nest{
+	
+	padding: 15px;
+	margin-bottom:30px;
+	
+	
+	}
+    .nest .title .titleIcon {
+        background: url("../img/nest-bg.png") repeat scroll 0 0 transparent;
+        border-bottom: 1px solid #CCCCCC;
+        border-left: 1px solid #CCCCCC;
+        border-radius: 0 0 3px 3px;
+        border-right: 1px solid #CCCCCC;
+        box-shadow: 0 1px 0 #FFFFFF;
+        float: left;
+        height: 16px;
+        margin: 0 0 0 15px;
+        padding: 9px 9px 5px;
+        width: 16px;
+    }
+    .body-nest{
+    	padding:15px;
+
+    }
+	
+    img.sidebar-icon{
+    	margin: 0 6px 0 0;
+		float:left;
+    }
+ #g1, #g2, #g3, #g4, #g5, #g6 {
+        width:120px; height:80px;
+        display: inline-block;
+        margin-left: 0px;
+		float:left;
+		margin-right: 5%;
+}
 
 .gauge-tittle{
 	margin-top:25px;
@@ -132,4 +245,62 @@ ul.topnav span{
 	background:none;
 	margin-top:-15px;
 }
+
+    /* =============
+        CONTENT
+        ================*/
+.nest {
+           /*  background: url("../img/nest-bg.png") repeat scroll 0 0 #f8f8f8; */
+			background:none repeat scroll 0 0 #F7F7F7;
+            border: 1px solid #CDCDCD;
+            clear: both;
+            margin-top: 20px;
+            border-radius:5px;
+        }
+
+.nest, .middleNav, .sItem, .statsDetailed {
+            box-shadow: 0 1px 0 #FFFFFF;
+        }
+.nest .title {
+           background: url("../img/nest-head-bg.png") repeat-x scroll 0 0 #EFEFEF; 
+           border-bottom: 3px double #CDCDCD;
+           height: 36px;
+           box-shadow: 0 1px 0 #FFFFFF;
+		   border-radius: 5px 5px 0 0;
+       }
+.nest .title h6 {
+        float: left;
+        font-size: 12px;
+        font-weight: normal;
+        padding: 9px 12px 8px;
+        text-shadow: 1px 1px 0 #FFFFFF;
+        color:#555555;
+    }
+
+.slidder-bar-nest{	
+	padding: 15px;
+	margin-bottom:30px;
+}
+.nest .title .titleIcon {
+        background: url("../img/nest-bg.png") repeat scroll 0 0 transparent;
+        border-bottom: 1px solid #CCCCCC;
+        border-left: 1px solid #CCCCCC;
+        border-radius: 0 0 3px 3px;
+        border-right: 1px solid #CCCCCC;
+        box-shadow: 0 1px 0 #FFFFFF;
+        float: left;
+        height: 16px;
+        margin: 0 0 0 15px;
+        padding: 9px 9px 5px;
+        width: 16px;
+}
+.body-nest{
+    	padding:15px;
+ }
+	
+img.sidebar-icon{
+    	margin: 0 6px 0 0;
+		float:left;
+}
+	
 	  

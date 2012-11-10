@@ -2,7 +2,7 @@ $(document).ready(function(){
 	$('#width_slider').slider({
 		range:"min",
 		min:70,
-		max:97,
+		max:95,
 		value:30,
 		slide:changeWidth,
 		change:changeWidth
@@ -12,7 +12,7 @@ $(document).ready(function(){
 	function changeWidth(){
 	var sliderWidth = $('#width_slider').slider("value");
 		$(".container-fluid").css("width", sliderWidth+'%');
+
 		
-	}
-	
+	} 	
 });  		
