@@ -21,8 +21,21 @@ img.logo{
 .btn-right{
 	position:relative;
 	right:0;
-	background:red;
+	background:#e5e5e5;
+	padding: 0 5px 5px;
+	border-radius:5px;
+	box-shadow: 0 1px 0 #fff;
+	
 
+}
+.slider-nest{
+/* 	padding-top:-25px;
+	margin-bottom:25px; */
+	background:#eee;
+	padding:10px;
+	border-radius:5px;
+	box-shadow: 0 1px 0 #fff;
+	margin-bottom:15px
 }
 /* =================
     SIDEBAR 
@@ -32,42 +45,45 @@ img.logo{
 	width: 21%; 
 	padding: 0% 2% 2%; 
 	margin-left: 4%; 
-	margin-top: 25px; 
+	margin-top: 40px; 
 /* 	border: 2px solid red; 
 	background-color: #FFEEEE; */
 }
 .side-bar{
-
-	top:50px;
-	background:#fff;
-	padding:10px;
-	border:1px solid #ccc;
+	background:url("../img/diagonal-noise.png") repeat;
+	padding:5px;
+	border-radius:5px;
 
 	
 }
 .topnav {
 	padding: 40px 28px 25px 0;
 
+
 }
 
 ul.topnav {
-	padding: 0!important;
-	margin: 0!important;
-	font-size: 1em!important;
+	padding:10px;
+	margin: 0;
+	font-size: 14px;
 	line-height: 0.5em!important;
 	list-style: none!important;
+	background:none repeat scroll 0 0 #E5E5E5;
+	padding:10px;
+	border-radius:5px;
+	box-shadow: 0 1px 0 #fff;
+	
 }
 
 ul.topnav li {}
 
 ul.topnav li a {
 	line-height: 10px!important;
-	font-size: 11px!important;
+	font-size: 13px!important;
 	padding: 10px 5px!important;
 	color: #000!important;
 	display: block!important;
 	text-decoration: none!important;
-	font-weight: bolder!important;
 	list-style:none;
 }
 
@@ -90,7 +106,7 @@ ul.topnav ul li {
 
 ul.topnav ul li a {
 	border-bottom: 1px solid #CCCCCC;
-    box-shadow: 0 2px 0 #FFFFFF;
+    box-shadow: 0 1px 0 #FFFFFF;
     font-size: 10px;
     font-weight: normal;
     outline: 0 none;
@@ -120,7 +136,7 @@ ul.topnav span{
 .nest-bg {
 	background: rgba( 255, 255, 255, 0.4);
     border: 1px solid #CCCCCC;
-    margin-top: 25px;
+    margin-top: 40px;
     padding: 10px;
 	border-radius:5px;
 }

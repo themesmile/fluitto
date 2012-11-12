@@ -1,5 +1,5 @@
 $(document).ready(function(){		
-	$('#width_slider').slider({
+	$('#top-slider').slider({
 		range:"min",
 		min:70,
 		max:95,
@@ -10,7 +10,7 @@ $(document).ready(function(){
 	});
 	changeWidth();
 	function changeWidth(){
-	var sliderWidth = $('#width_slider').slider("value");
+	var sliderWidth = $('#top-slider').slider("value");
 		$(".container-fluid").css("width", sliderWidth+'%');
 
 		
