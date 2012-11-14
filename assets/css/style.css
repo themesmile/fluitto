@@ -182,9 +182,11 @@ ul.topnav span{
 	padding:5px;
 	border-radius:3px;
 	margin:25px 0 0 0;
-	box-shadow:0 1px 0 #FFFFFF;
 	border:1px solid #ccc;
 	position:relative;
+	-webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 }
 .dahboard-gauge:after, .dahboard-gauge:before {
     -moz-border-bottom-colors: none;
