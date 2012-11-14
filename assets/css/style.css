@@ -53,7 +53,7 @@ img.logo{
 .scroll {
 	float: left; 
 	width: 21%; 
-	padding: 0% 2% 2%; 
+	padding: 0; 
 	margin-left: 4%; 
 	margin-top: 40px; 
 /* 	border: 2px solid red; 
@@ -114,8 +114,9 @@ ul.topnav li a {
 }
 
 ul.topnav li a:hover {
-	background-color:#675C7C;
+	background-color:#00B6ED;
 	color:white;
+	text-shadow: none;
 }
 
 ul.topnav ul {
@@ -134,20 +135,22 @@ ul.topnav ul li {
 ul.topnav ul li a {
 	border-bottom: 1px solid #CCCCCC;
     box-shadow: 0 1px 0 #FFFFFF;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: normal;
     outline: 0 none;
-    padding-left: 20px;
+    padding-left: 35px;
+	background:#ddd;
 }
 
 ul.topnav ul li a:hover {
-	background-color:#D3C99C;
-	color:#675C7C;
+	background-color:#9FBD3B;
+	color:#333333;
 }
 
 ul.topnav ul ul li a {
-	color:silver;
+	color:#444;
 	padding-left: 40px;
+	background:#c8c8c8;
 }
 
 ul.topnav ul ul li a:hover {
@@ -333,4 +336,20 @@ ul.topnav span{
 	background:none;
 	margin-top:-15px;
 }
+.footer-fluid {
+  margin-right: auto;
+  margin-left: auto;
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.6);
+    border: 1px solid #CCCCCC;
+    padding: 15px;
+	margin-top: 10px;
+	border-radius:5px;
+	position:relative;
 
+	-webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.15);
+-moz-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.15);
+box-shadow: 0 3px 5px rgba(0, 0, 0, 0.15);
+/*   padding-right: 20px;
+  padding-left: 20px; */
+  *zoom: 1;
+}
