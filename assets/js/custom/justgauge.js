@@ -21,9 +21,7 @@
         title: "Custom Colors",
         label: "",  
         levelColors: [
-          "#00fff6",
-          "#ff00fc",
-          "#1200ff"
+          "#A8C83E",
         ]          
       });
       
@@ -32,8 +30,11 @@
         value: getRandomInt(0, 100), 
         min: 0,
         max: 100,
-        title: "Hide Labels",
-        showMinMax: false       
+        title: "Hide Labels",		
+        showMinMax: false,   
+		levelColors: [
+          "#00B9F1",
+        ]  		
       });
 
       
