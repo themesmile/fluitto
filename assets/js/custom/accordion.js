@@ -2,8 +2,8 @@
 			$(".topnav").accordionze({
 				accordionze:false,
 				speed: 500,
-				closedSign: '[+]',
-				openedSign: '[-]'
+				closedSign: '<img src="assets/img/plus.png">',
+				openedSign: '<img src="assets/img/minus.png">'
 			});
 		});
 

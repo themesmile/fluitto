@@ -11,7 +11,8 @@ $(document).ready(function(){
 	changeWidth();
 	function changeWidth(){
 	var sliderWidth = $('#top-slider').slider("value");
-		$(".container-fluid").css("width", sliderWidth+'%');
+		$(".container-fluid").css("width", sliderWidth+'%'),
+		$(".footer-fluid").css("width", sliderWidth+'%');
 
 		
 	} 	
