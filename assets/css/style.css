@@ -533,3 +533,78 @@ ul.topnav span{
 	margin-top: 10px;
 
 }
+
+/* jarak tombol */
+.padding-btm{
+	margin: 0 0 10px 0;
+}
+/* bayangan tombol */
+
+.btn{
+	 box-shadow: 0 3px 0 rgba(0, 0, 0, 0.3);
+}
+.btn:hover{
+	 box-shadow: 0 3px 0 rgba(0, 0, 0, 0.3);
+}
+.btn-danger{
+	box-shadow: 0 3px 0 rgba(127, 0, 56, 1);
+}
+.btn-danger:hover{
+	box-shadow: 0 3px 0 rgba(127, 0, 56, 1);
+}
+
+.btn-success {
+	box-shadow: 0 3px 0 rgba(49, 63, 0, 1);
+}
+.btn-success:hover{
+	box-shadow: 0 3px 0 rgba(49, 63, 0, 1);
+}
+
+.btn-info{
+	box-shadow: 0 3px 0 rgba(0, 103, 127, 1);
+}
+.btn-info:hover{
+	box-shadow: 0 3px 0 rgba(00, 103, 127, 1);
+}
+
+.btn-warning{
+	box-shadow: 0 3px 0 rgba(175, 103, 0, 1);
+}
+.btn-warning:hover{
+	box-shadow: 0 3px 0 rgba(175, 103, 0, 1);
+}
+.btn-inverse{
+	box-shadow: 0 3px 0 rgba(0, 0, 0, 1);
+}
+.btn-inverse:hover{
+	box-shadow: 0 3px 0 rgba(0, 0, 0, 1);
+}
+/* ukuran progres */
+.progress.small {
+    height: 10px;
+}
+.progress.mini {
+    height: 5px;
+}
+.progress.large {
+    height: 25px;
+}
+/* span bekground abu2 */
+.doc-grid {
+    -moz-box-sizing: border-box;
+    background: none repeat scroll 0 0 #EEEEEE;
+    border-radius: 3px 3px 3px 3px;
+    display: block;
+    margin-bottom: 5px;
+    padding: 2px 0 3px;
+    text-align: center;
+    width: 100%;
+}
+.show-grid [class*="span"] {
+    background-color: #EEEEEE;
+    border-radius: 3px 3px 3px 3px;
+    line-height: 40px;
+    min-height: 40px;
+    text-align: center;
+	margin-bottom:20px;
+}

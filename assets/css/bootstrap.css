@@ -3266,15 +3266,15 @@ input[type="button"].btn-block {
 .btn-danger {
   color: #ffffff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #da4f49;
-  *background-color: #bd362f;
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ee5f5b), to(#bd362f));
-  background-image: -webkit-linear-gradient(top, #ee5f5b, #bd362f);
-  background-image: -o-linear-gradient(top, #ee5f5b, #bd362f);
-  background-image: linear-gradient(to bottom, #ee5f5b, #bd362f);
-  background-image: -moz-linear-gradient(top, #ee5f5b, #bd362f);
+  background-color: #EF0E6C;
+  *background-color: #EF0E6C;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#EF0E6C), to(#BF0054));
+  background-image: -webkit-linear-gradient(top, #EF0E6C, #BF0054);
+  background-image: -o-linear-gradient(top, #EF0E6C, #BF0054);
+  background-image: linear-gradient(to bottom, #EF0E6C, #BF0054);
+  background-image: -moz-linear-gradient(top, #EF0E6C, #BF0054);
   background-repeat: repeat-x;
-  border-color: #bd362f #bd362f #802420;
+  border-color: #BF0054 #BF0054 #802420;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
   filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffee5f5b', endColorstr='#ffbd362f', GradientType=0);
   filter: progid:dximagetransform.microsoft.gradient(enabled=false);
@@ -3286,7 +3286,7 @@ input[type="button"].btn-block {
 .btn-danger.disabled,
 .btn-danger[disabled] {
   color: #ffffff;
-  background-color: #bd362f;
+  background-color: #BF0054;
   *background-color: #a9302a;
 }
 
@@ -3298,15 +3298,15 @@ input[type="button"].btn-block {
 .btn-success {
   color: #ffffff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #5bb75b;
-  *background-color: #51a351;
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#62c462), to(#51a351));
-  background-image: -webkit-linear-gradient(top, #62c462, #51a351);
-  background-image: -o-linear-gradient(top, #62c462, #51a351);
-  background-image: linear-gradient(to bottom, #62c462, #51a351);
-  background-image: -moz-linear-gradient(top, #62c462, #51a351);
+  background-color: #A6C53D;
+  *background-color: #7C9F00;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#A6C53D), to(#7C9F00));
+  background-image: -webkit-linear-gradient(top, #A6C53D, #7C9F00);
+  background-image: -o-linear-gradient(top, #A6C53D, #7C9F00);
+  background-image: linear-gradient(to bottom, #A6C53D, #7C9F00);
+  background-image: -moz-linear-gradient(top, #A6C53D, #7C9F00);
   background-repeat: repeat-x;
-  border-color: #51a351 #51a351 #387038;
+  border-color: #7C9F00 #7C9F00 #387038;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
   filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ff62c462', endColorstr='#ff51a351', GradientType=0);
   filter: progid:dximagetransform.microsoft.gradient(enabled=false);
@@ -3318,7 +3318,7 @@ input[type="button"].btn-block {
 .btn-success.disabled,
 .btn-success[disabled] {
   color: #ffffff;
-  background-color: #51a351;
+  background-color: #7C9F00;
   *background-color: #499249;
 }
 
@@ -3617,11 +3617,11 @@ input[type="submit"].btn.btn-mini {
 }
 
 .btn-group.open .btn-danger.dropdown-toggle {
-  background-color: #bd362f;
+  background-color: #BF0054;
 }
 
 .btn-group.open .btn-success.dropdown-toggle {
-  background-color: #51a351;
+  background-color: #7C9F00;
 }
 
 .btn-group.open .btn-info.dropdown-toggle {
@@ -5509,11 +5509,11 @@ a.badge:hover {
 .progress-danger .bar,
 .progress .bar-danger {
   background-color: #dd514c;
-  background-image: -moz-linear-gradient(top, #ee5f5b, #c43c35);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ee5f5b), to(#c43c35));
-  background-image: -webkit-linear-gradient(top, #ee5f5b, #c43c35);
-  background-image: -o-linear-gradient(top, #ee5f5b, #c43c35);
-  background-image: linear-gradient(to bottom, #ee5f5b, #c43c35);
+  background-image: -moz-linear-gradient(top, #EF0E6C, #c43c35);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#EF0E6C), to(#c43c35));
+  background-image: -webkit-linear-gradient(top, #EF0E6C, #c43c35);
+  background-image: -o-linear-gradient(top, #EF0E6C, #c43c35);
+  background-image: linear-gradient(to bottom, #EF0E6C, #c43c35);
   background-repeat: repeat-x;
   filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffee5f5b', endColorstr='#ffc43c35', GradientType=0);
 }
@@ -5531,18 +5531,18 @@ a.badge:hover {
 .progress-success .bar,
 .progress .bar-success {
   background-color: #5eb95e;
-  background-image: -moz-linear-gradient(top, #62c462, #57a957);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#62c462), to(#57a957));
-  background-image: -webkit-linear-gradient(top, #62c462, #57a957);
-  background-image: -o-linear-gradient(top, #62c462, #57a957);
-  background-image: linear-gradient(to bottom, #62c462, #57a957);
+  background-image: -moz-linear-gradient(top, #A6C53D, #57a957);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#A6C53D), to(#57a957));
+  background-image: -webkit-linear-gradient(top, #A6C53D, #57a957);
+  background-image: -o-linear-gradient(top, #A6C53D, #57a957);
+  background-image: linear-gradient(to bottom, #A6C53D, #57a957);
   background-repeat: repeat-x;
   filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ff62c462', endColorstr='#ff57a957', GradientType=0);
 }
 
 .progress-success.progress-striped .bar,
 .progress-striped .bar-success {
-  background-color: #62c462;
+  background-color: #A6C53D;
   background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
